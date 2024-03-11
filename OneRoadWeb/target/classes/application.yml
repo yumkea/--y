@@ -1,0 +1,21 @@
+#Springboot
+Spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/yiludb
+    username: root
+    password: 115200
+
+server:
+  port: 8080
+
+
+#mybatis配置
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    #map-underscore-to-camel-case: true
+
+
+
+
